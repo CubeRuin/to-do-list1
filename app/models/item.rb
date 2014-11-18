@@ -4,4 +4,3 @@ class Item < ActiveRecord::Base
    validates_length_of :name, maximum: 50
 end
 
-end
