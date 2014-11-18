@@ -7,8 +7,11 @@ FactoryGirl.define do
   factory :a_user, class: User do
 
     #these setup the attributes, each declaration is a method call
-    email "x@y.com"
-    password "gemini"
+    email ""
+    password ""
+
+
+  
 
   end
 end
